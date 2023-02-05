@@ -4,6 +4,7 @@ import type { NextApiRequest, NextApiResponse } from "next";
 import initMiddleware from "@/lib/new-middleware";
 import Cors from "cors";
 
+//new cors implemented
 // const cors = initMiddleware(
 //   Cors({
 //     methods: ["GET", "HEAD", "DELETE"],
